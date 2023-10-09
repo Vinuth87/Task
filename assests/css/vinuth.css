@@ -1,0 +1,504 @@
+body {
+    background: #101425;
+
+}
+.imageline{
+    height: 310px;
+}
+
+nav {
+    position: fixed;
+    background: #002C4A;
+    color: lightgray;
+    width: 100%;
+    height: 80px;
+    font-size: 12pt;
+    z-index: 10;
+}
+
+ul {
+    width: 80%;
+    margin-left: 40%;
+    display: flex;
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+    margin-left: 80px;
+
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+.mypic {
+    height: 10%;
+    width: 20%;
+}
+
+p {
+    color: #FFFFFF;
+}
+
+h3 {
+    color: #fcc028;
+    font-family: Preahvihear;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+}
+
+h4 {
+    color: #FFFFFF;
+}
+
+h1 {
+    color: #FFFFFF;
+
+}
+
+.intro {
+    display: flex;
+}
+
+.intro1 {
+    margin-top: 160px;
+    margin-left: 30px;
+}
+
+.mypic {
+    width: 300px;
+    height: 300px;
+    margin-left: 400px;
+    margin-top: 170px;
+    margin-right: 50px;
+    position: relative;
+    border-radius: 170px;
+
+}
+
+.myphoto {
+    background: radial-gradient(25% 36% at 73% 67%, #007ACC 0%, rgba(50, 15, 133, 0) 100%);
+}
+
+.greatlearn {
+    width: 360px;
+    height: 310px;
+    border-radius: 20px;
+    margin-left: 3%;
+}
+
+.certificates {
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 3%;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+}
+
+.certificates p {
+    color: rgba(15, 23, 42, 1);
+
+}
+
+.certidis {
+    width: 360px;
+    height: 47px;
+    margin-left: 10px;
+    margin-top: -45px;
+    background: linear-gradient(180deg, #B1E0FF 0%, rgba(177, 224, 255, 0) 100%);
+    border-radius: 0px 0px 20px 20px;
+}
+
+.project {
+
+    padding-top: 10%;
+    padding-right: 35%;
+    margin-left: 20px;
+    background: radial-gradient(25% 50% at 23% 70%, #007ACC 0%, rgba(0, 122, 204, 0) 100%);
+}
+
+.project img {
+    border-radius: 40px;
+}
+
+.projdis {
+    background: url(../images/Rectangle\ 1.svg);
+    width: 400px;
+    height: 75px;
+    border-radius: 12px;
+    display: flex;
+}
+
+.projdis img {
+    width: 20.px;
+    height: 20px;
+}
+
+.cont {
+    margin-top: 150px;
+    margin-left: 400px;
+}
+
+.cont h2 {
+    color: #007ACC;
+}
+
+.online {
+    display: flex;
+}
+
+.contact {
+    display: flex;
+    color: #FFF0F080;
+
+}
+
+.myinfo {
+    padding-left: 20%;
+    padding-top: 10%;
+}
+
+.lines {
+    margin-left: 600px;
+}
+
+.lines2 {
+    display: flex;
+}
+
+button {
+    background: #FCC028;
+    border-radius: 4.86806px;
+    position: absolute;
+    width: 115px;
+    height: 40px;
+}
+
+.course img {
+    width: 20px;
+    height: 18px;
+    border-radius: 400px;
+    margin-left: 38px;
+}
+
+.course {
+    padding-left: 10%;
+    padding-top: 5%;
+    margin-left: 400px;
+
+
+}
+
+.skill {
+    width: 600px;
+    height: 500px;
+    margin-left: 700px;
+
+
+}
+
+.eclips {
+    background: radial-gradient(25% 50% at 33% 50%, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
+    margin-left: 300px;
+    margin-top: -600px;
+}
+
+.skill h2 {
+    color: #fcc028;
+}
+
+.college {
+    width: 267px;
+    height: 114px;
+    left: 742px;
+    top: 144px;
+    margin-left: 700px;
+
+    background: linear-gradient(110.49deg, #062234 19.95%, #214359 67.64%, #007ACC 107.08%, #15364C 156.61%, #123953 183.21%);
+    box-shadow: 4px 7px 26px rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+}
+
+.college p {
+    color: #FFFFFF;
+}
+
+.inter {
+    width: 267px;
+    height: 114px;
+    left: 742px;
+    top: 144px;
+    margin-left: 450px;
+    background: linear-gradient(110.49deg, #062234 19.95%, #214359 67.64%, #007ACC 107.08%, #15364C 156.61%, #123953 183.21%);
+    box-shadow: 4px 7px 26px rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+}
+
+.inter p {
+    color: #FFFFFF;
+}
+
+.school {
+    width: 267px;
+    height: 114px;
+    left: 742px;
+    top: 144px;
+    margin-left: 200px;
+    background: linear-gradient(110.49deg, #062234 19.95%, #214359 67.64%, #007ACC 107.08%, #15364C 156.61%, #123953 183.21%);
+    box-shadow: 4px 7px 26px rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+}
+
+.school p {
+    color: #FFFFFF;
+}
+
+.backimg {
+    padding-left: 250px;
+    padding-top: 50px;
+}
+
+.edu {
+    margin-top: -400px;
+   }
+
+.edu button {
+    box-sizing: border-box;
+    width: 87px;
+    height: 26px;
+    background:white;
+    border: 1px solid #007ACC;
+    border-radius: 10px;
+}
+
+.person {
+    margin-top: -450px;
+    margin-left: 100px;
+}
+
+.names {
+    width: 392px;
+    height: 100px;
+    left: 701px;
+    top: 4416px;
+    background: #FFFFFF;
+    border: 1.94722px solid rgba(0, 0, 0, 0.5);
+    border-radius: 9.73611px;
+    color: #00000080;
+}
+
+.name {
+    width: 392px;
+    height: 64px;
+    left: 701px;
+    top: 4416px;
+    background: #FFFFFF;
+    border: 1.94722px solid rgba(0, 0, 0, 0.5);
+    border-radius: 9.73611px;
+
+}
+
+button {
+    background: #FCC028;
+    border-radius: 4.86806px;
+    position: absolute;
+    width: 115px;
+    height: 40px;
+}
+
+.last {
+    display: flex;
+}
+
+.forms {
+    padding-top: 150px;
+}
+
+.myinfo {
+    margin-right: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        background: #101425;
+        font-size: 40px; 
+    }
+
+    .mypic {
+        width: 700px;
+        height: 700px;
+        margin-left: 200px;
+        margin-top: 130px;
+        margin-right: 50px;
+        position: relative;
+        border-radius: 350px;
+
+    }
+
+    .myphoto {
+        background: none;
+    }
+
+    .intro {
+        flex-direction: column;
+
+    }
+
+    .intro1 {
+        margin-left: 250px;
+        width: 700px;
+        height: 500px;
+        margin-top: 20px;
+    }
+
+    .intro1 h3 {
+        font-size: 100px;
+    }
+
+    .course {
+        margin-top: 600px;
+        display: flex;
+        margin-left: 350px;
+        row-gap: 400px;
+    }
+    .course img{
+        margin-right: 1px;
+    }
+   
+    .lines{
+        display: flex;
+        margin-left: 430px;
+    
+    }
+    .skill{
+        margin-left: 490px;
+        font-size: 30px;
+    }
+
+    .eclips {
+    margin-left: 110px;
+    background: none;
+
+    }
+
+    .certificates {
+        flex-direction: column;
+        margin-left: 180px;
+    }
+
+    .greatlearn {
+        width: 700px;
+        height: 400px;
+    }
+
+    .certidis {
+        margin-bottom: 40px;
+        width: 700px;
+    }
+    .cont{
+        margin-left: 350px;
+    }
+
+    .project {
+
+        padding-top: 10%;
+        padding-right: 35%;
+        margin-left: 10px;
+        background: radial-gradient(25% 50% at 23% 70%, #007ACC 0%, rgba(0, 122, 204, 0) 100%);
+    }
+
+    .online {
+        flex-direction: column;
+    }
+
+    .projdis {
+        width: 400px;
+        height: 75px;
+        border-radius: 12px;
+        display: flex;
+    }
+
+    .project {
+        margin-top: 300px;
+        margin-left: 350px;
+
+    }
+
+    .backimg {
+        margin-right: 300px;
+    }
+
+    .college {
+        width: 267px;
+        height: 114px;
+
+        background: linear-gradient(200.49deg, #062234 25.95%, #214359 180.64%, #007ACC 107.08%, #15364C 156.61%, #123953 183.21%);
+        box-shadow: 4px 7px 26px rgba(0, 0, 0, 0.12);
+        border-radius: 15px;
+    }
+
+    .inter {
+        margin-left: 330px;
+    }
+
+    .school {
+        margin-left: 30px;
+    }
+
+    .backimg {
+        padding-left: 150px;
+    }
+    .college{
+        margin-left: 630px;
+    }
+    .backimg{
+       margin-left: -20px;
+    }
+    .person{
+    margin-left: 10px;
+    padding-right: 30px;
+    }
+
+    .last {
+        flex-direction: column;
+    }
+
+    .myinfo {
+        margin-left: 150px;
+        margin-top: 30px;
+    }
+
+    .forms {
+        margin-left: 230px;
+        margin-top: -50px;
+    }
+
+    .name {
+        width: 600px;
+        height: 100px;
+    }
+
+    .names {
+        width: 600px;
+        height: 200px;
+
+    }
+    ul {
+        width: 80%;
+        margin-left: 5%;
+        display: flex;
+        padding: 10px;
+    }
+    li a {
+       
+        color: white;
+        font-size: 18px;
+    }
+    
+    
+}
